@@ -7,6 +7,7 @@ class ButtonsTable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Container(
           margin: const EdgeInsets.fromLTRB(0, 10, 0,20),

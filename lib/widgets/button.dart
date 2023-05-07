@@ -20,13 +20,19 @@ class _ButtonState extends State<Button> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      // color: Colors.green,
       // margin: const EdgeInsets.fromLTRB(0,30,0,10),
-      height: MediaQuery.of(context).size.width * 0.1 * widget.height,
+      height: MediaQuery.of(context).size.height * 0.1 * widget.height,
       child: TextButton(
         style: ButtonStyle(
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
             RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(1),
+              borderRadius: BorderRadius.circular(1.0),
+              side: const BorderSide(
+                color: Colors.white,
+                width: 1,
+                style: BorderStyle.solid,
+              ),
             ),
           ),
         ),
@@ -45,6 +51,6 @@ class _ButtonState extends State<Button> {
         // },
       ),
     );
-    ;
+
   }
 }

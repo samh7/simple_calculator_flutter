@@ -39,9 +39,10 @@ class AppRoot extends StatefulWidget {
 class _AppRootState extends State<AppRoot> {
   @override
   Widget build(BuildContext context) {
-    return Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+    return Column(
+       children: [
       Container(
-        padding: const EdgeInsets.fromLTRB(10, 20, 0, 10),
+      alignment: Alignment.centerRight,        padding: const EdgeInsets.fromLTRB(10, 20, 0, 10),
         height: MediaQuery.of(context).size.height * 0.1,
         child: Consumer<Calculator>(
           builder: (context, provider, _) {
@@ -52,7 +53,9 @@ class _AppRootState extends State<AppRoot> {
           },
         ),
       ),
-      SizedBox(
+      Container(
+        alignment: Alignment.centerRight,
+        padding: const EdgeInsets.fromLTRB(10, 20, 0, 10),
         height: MediaQuery.of(context).size.height * 0.1,
         child: Consumer<Calculator>(
           builder: (context, provider, _) {
