@@ -1,16 +1,28 @@
-# simple_calc
+# Simple Calculator
 
-A new Flutter project.
+This is a simple calculator project made in Flutter
+
+## Demos
+
+
+### Demo1
+<img width="300px" src="./Demos/Demo1.png"/> 
+
+### Demo2
+<img width="300px" src="./Demos/Demo2.png"/> 
+
+### Demo3
+<img width="300px" src="./Demos/Demo3.png"/> 
+
+### Demo4
+<img width="300px" src="./Demos/Demo4.png"/>
+
+
 
 ## Getting Started
+1. Install `git` and `flutter`
+2. Clone the repo: `git clone https://github.com/samh7/simple_calc.git`
+3. `cd simple_calc`
+4. Run the project: `flutter run`
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

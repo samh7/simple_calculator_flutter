@@ -42,8 +42,8 @@ class _AppRootState extends State<AppRoot> {
     return Column(
        children: [
       Container(
-      alignment: Alignment.centerRight,        padding: const EdgeInsets.fromLTRB(10, 20, 0, 10),
-        height: MediaQuery.of(context).size.height * 0.1,
+      alignment: Alignment.centerRight,        padding: const EdgeInsets.fromLTRB(10, 20, 10, 10),
+        height: MediaQuery.of(context).size.height * 0.12,
         child: Consumer<Calculator>(
           builder: (context, provider, _) {
             return Text(
@@ -55,8 +55,8 @@ class _AppRootState extends State<AppRoot> {
       ),
       Container(
         alignment: Alignment.centerRight,
-        padding: const EdgeInsets.fromLTRB(10, 20, 0, 10),
-        height: MediaQuery.of(context).size.height * 0.1,
+        padding: const EdgeInsets.fromLTRB(10, 20, 10, 10),
+        height: MediaQuery.of(context).size.height * 0.13,
         child: Consumer<Calculator>(
           builder: (context, provider, _) {
             return Text(

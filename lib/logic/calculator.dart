@@ -18,7 +18,7 @@ class Calculator extends ChangeNotifier {
         Expression exp = parser.parse(equation);
         ContextModel cm = ContextModel();
         result = '${exp.evaluate(EvaluationType.REAL, cm)}';
-        equation = result;
+        // equation = result;
       } catch (e) {
         result = 'Error';
         equation = '';
